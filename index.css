@@ -109,7 +109,7 @@ nav a:hover {
 }
 
 .hero {
-    background: linear-gradient(135deg, rgba(26, 15, 15, 0.4), rgba(74, 14, 14, 0.3)), url('image/20.png');
+    background: linear-gradient(135deg, rgba(26, 15, 15, 0.4), rgba(74, 14, 14, 0.3)), url('/20.png');
     background-size: cover;
     background-position: center center;
     background-attachment: scroll;
@@ -403,7 +403,7 @@ footer {
     }
 
     .hero {
-        background-image: linear-gradient(135deg, rgba(26, 15, 15, 0.5), rgba(74, 14, 14, 0.5)), url('image/20.png');
+        background-image: linear-gradient(135deg, rgba(26, 15, 15, 0.5), rgba(74, 14, 14, 0.5)), url('/20.png');
         background-position: center center;
     }
 
