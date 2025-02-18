@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Voidstomper</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <a href="#" class="logo">
+            <img src="image/1.jpg" alt="Logo" width="60" height="60">
+            Voidstomper..
+        </a>
+        <div class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#tokenomics">Tokenomics</a>
+            <a href="#gallery">image</a>
+            <a href="#community">Community</a>
+            <a href="">Buy Now</a>
+        </nav>
+    </div>
+   </div>
+  </header>
+  <main>
+    <main>
+        <section class="hero" style="background-position-y: 0px; background-attachment: scroll;">
+            <div class="hero-container">
+                <h1>$Voidstomper</h1>
+                <p></p>
+                <a href="" class="cta-button">SWAP Voidstomper
+                    </a>
+            </div>
+        </section>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title fade-in is-visible">$Voidstomper</h2>
+                <div class="about-content">
+                    <div class="about-text fade-in is-visible">
+                        <p>The Beautiful Witch is sick of everyone getting stuck in a world of cheap tokens. It’s time for some real magic! Say goodbye to boring tokens and embrace the new excitement of a coin full of charm. 🪄✨
+                            The Beautiful Witch isn’t just here to compete—she’s here to revive the memecoin spirit with a magical twist like no other. With a bright smile and enchanting magic powers, she’s ready to change the crypto world with her unmatched charm and magic. 💖🧙‍♀️ </p>
+                    </div>
+                    <div class="about-image slide-in-right">
+                        <img src="image/6.jpg"alt="desu" width="300" height="300">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tokenomics" class="section">
+            <div class="container">
+                <h2 class="section-title fade-in is-visible">Voidstomper Tokenomics</h2>
+                <div class="tokenomics-grid">
+                    <div class="tokenomics-item fade-in is-visible">
+                        <h3>SUPPLY: 1 BILL </h3>
+                        <p></p>
+                    </div>
+                    <div class="tokenomics-item fade-in is-visible">
+                        <h3>No taxes</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2 class="section-title fade-in is-visible">image</h2>
+                <div class="gallery-container fade-in is-visible">
+                    <button class="gallery-nav prev" aria-label="Previous image">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+                    <div class="gallery-wrapper">
+                        <div class="gallery-preview prev-preview">
+                            <img src="image/2.jpg"alt="video">
+                        </div>
+                        <div class="gallery-image-container">
+                            <img src="image/3.jpg" alt="video" class="gallery-image">
+                        </div>
+                        <div class="gallery-preview next-preview">
+                            <img src="image/4.jpg" alt="video2">
+                        </div>
+                    <button class="gallery-nav next" aria-label="Next image">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+                <div class="gallery-description">
+                    <p class="gallery-description-text"> </p>
+                </div>
+            </div>
+        </section>
+        </section>
+        <section id="community" class="section community">
+            <div class="container">
+                <h2 class="section-title fade-in">Join the Voidstomper Community</h2>
+                <p class="fade-in">Want to be part of the wildest crypto community? Follow $Voidstomper socials.
+                    </p>
+                <div class="social-links fade-in">
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        <img src="image/dex1.png" alt="Social Icon 1" class="social-icon">
+                    </a>
+                    <a href="https://x.com/DesuCoin" target="_blank" rel="noopener noreferrer">
+                        <img src="image/x.png" alt="Social Icon 2" class="social-icon">
+                    </a>
+                    <a href="https://t.me/+UR1OZrajJu4zMWM9" target="_blank" rel="noopener noreferrer">
+                        <img src="image/tele.png" alt="Social Icon 4" class="social-icon">
+                    </a>
+                </div>
+                <p class="fade-in">CA: 0000000000000000</a>
+                </p>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p>@2025 Voidstomper</p>
+            </div>
+        </footer>
+        <script>
+            // Add a wild west easter egg
+            let bullMoos = 0;
+            document.querySelector('.logo').addEventListener('click', (e) => {
+                e.preventDefault();
+                bullMoos++;
+                if (bullMoos === 5) {
+                    alert('BULLRUN IS ON!');
+                    document.body.style.animation = 'lassoSpin 0.5s';
+                    setTimeout(() => document.body.style.animation = '', 500);
+                    bullMoos = 0;
+                }
+            });
+    
+            // Hamburger menu functionality
+            const hamburgerMenu = document.querySelector('.hamburger-menu');
+            const nav = document.querySelector('nav');
+    
+            hamburgerMenu.addEventListener('click', () => {
+                nav.classList.toggle('active');
+            });
+    
+            // Close menu when a link is clicked
+            document.querySelectorAll('nav a').forEach(link => {
+                link.addEventListener('click', () => {
+                    nav.classList.remove('active');
+                });
+            });
+    
+            // Simple parallax effect for the hero section
+            function setInitialBackgroundPosition() {
+                const hero = document.querySelector('.hero');
+                if (window.innerWidth <= 768) {
+                    hero.style.backgroundPositionY = 'center';
+                    hero.style.backgroundAttachment = 'scroll';
+                } else {
+                    hero.style.backgroundPositionY = '0px';
+                    hero.style.backgroundAttachment = 'scroll';
+                }
+            }
+    
+            window.addEventListener('load', setInitialBackgroundPosition);
+            window.addEventListener('resize', setInitialBackgroundPosition);
+    
+            window.addEventListener('scroll', () => {
+                const scrollPosition = window.pageYOffset;
+                const hero = document.querySelector('.hero');
+    
+                if (window.innerWidth > 768) {
+                    hero.style.backgroundPositionY = scrollPosition * 0.5 + 'px';
+                }
+            });
+    
+            // Scroll animations
+            const animatedElements = document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right');
+    
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                    } else {
+                        entry.target.classList.remove('is-visible');
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+    
+            animatedElements.forEach(element => {
+                observer.observe(element);
+            });
+    
+    
+    
+            document.addEventListener('DOMContentLoaded', function () {
+                const galleryWrapper = document.querySelector('.gallery-wrapper');
+                const mainImage = galleryWrapper.querySelector('.gallery-image');
+                const prevBtn = document.querySelector('.gallery-nav.prev');
+                const nextBtn = document.querySelector('.gallery-nav.next');
+                const descriptionEl = document.querySelector('.gallery-description-text');
+                const prevPreview = document.querySelector('.prev-preview');
+                const nextPreview = document.querySelector('.next-preview');
+                let currentIndex = 0;
+    
+                const galleryItems = [
+                    { src: "image/2.jpg", alt: "video", description: "" },
+                    { src: "image/3.jpg", alt: "video", description: "" },
+                    { src: "image/4.jpg", alt: "video", description: "" },
+                ];
+    
+    
+                function updateGallery(direction) {
+                    mainImage.style.opacity = '0';
+                    descriptionEl.style.opacity = '0';
+    
+                    setTimeout(() => {
+                        mainImage.src = galleryItems[currentIndex].src;
+                        mainImage.alt = galleryItems[currentIndex].alt;
+                        descriptionEl.textContent = galleryItems[currentIndex].description;
+    
+                        mainImage.style.opacity = '1';
+                        descriptionEl.style.opacity = '1';
+    
+                        updatePreviews();
+                    }, 250);
+                }
+    
+                function updatePreviews() {
+                    const prevIndex = (currentIndex - 1 + galleryItems.length) % galleryItems.length;
+                    const nextIndex = (currentIndex + 1) % galleryItems.length;
+    
+                    prevPreview.querySelector('img').src = galleryItems[prevIndex].src;
+                    prevPreview.querySelector('img').alt = galleryItems[prevIndex].alt;
+                    nextPreview.querySelector('img').src = galleryItems[nextIndex].src;
+                    nextPreview.querySelector('img').alt = galleryItems[nextIndex].alt;
+                }
+    
+                function changeImage(newIndex) {
+                    currentIndex = newIndex;
+                    updateGallery();
+                }
+    
+                prevBtn.addEventListener('click', () => {
+                    changeImage((currentIndex - 1 + galleryItems.length) % galleryItems.length);
+                });
+    
+                nextBtn.addEventListener('click', () => {
+                    changeImage((currentIndex + 1) % galleryItems.length);
+                });
+    
+                prevPreview.addEventListener('click', () => {
+                    changeImage((currentIndex - 1 + galleryItems.length) % galleryItems.length);
+                });
+    
+                nextPreview.addEventListener('click', () => {
+                    changeImage((currentIndex + 1) % galleryItems.length);
+                });
+    
+                // Swipe functionality for mobile
+                let touchStartX = 0;
+                let touchEndX = 0;
+    
+                galleryWrapper.addEventListener('touchstart', e => {
+                    touchStartX = e.changedTouches[0].screenX;
+                }, false);
+    
+                galleryWrapper.addEventListener('touchend', e => {
+                    touchEndX = e.changedTouches[0].screenX;
+                    handleSwipe();
+                }, false);
+    
+                function handleSwipe() {
+                    if (touchStartX - touchEndX > 50) {
+                        // Swipe left
+                        nextBtn.click();
+                    } else if (touchEndX - touchStartX > 50) {
+                        // Swipe right
+                        prevBtn.click();
+                    }
+                }
+    
+                // Initialize gallery
+                updatePreviews();
+                descriptionEl.textContent = galleryItems[currentIndex].description;
+            });
+        </script>
+    </main>
+  </main>
+</body>
+</html>
